@@ -12,7 +12,7 @@ export default function Home() {
       }}
     >
       <h1>Hi there!</h1>
-      <h4>Let's explore The Star Wars!</h4>
+      <h4>Let&apos;s explore The Star Wars!</h4>
     </Box>
   )
 }

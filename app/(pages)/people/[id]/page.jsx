@@ -28,6 +28,7 @@ const Page = ({ params }) => {
         setLoading(false)
       } catch (error) {
         console.error('Error fetching person:', error.message)
+        setLoading(false)
       }
     }
 
@@ -106,7 +107,9 @@ const Page = ({ params }) => {
                 />
               </Box>
             </Box>
-          ) : null}
+          ) : (
+            'Not Found'
+          )}
         </Box>
       )}
     </Container>
